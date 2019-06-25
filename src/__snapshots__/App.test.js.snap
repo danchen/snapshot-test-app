@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot using toMatchSnapshot should render primitive types 1`] = `"String"`;
+
+exports[`App snapshot using toMatchSnapshot should render primitive types 2`] = `Object {}`;
+
+exports[`App snapshot using toMatchSnapshot should render primitive types 3`] = `Array []`;
+
+exports[`App snapshot using toMatchSnapshot should render structure 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="app-header"
+  >
+    <p>
+      Useful Links
+    </p>
+    <ul>
+      <li>
+        <a
+          href="https://jestjs.io"
+        >
+          Jest
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/danchen/snapshot-test-app"
+        >
+          snapshot-test-app
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
